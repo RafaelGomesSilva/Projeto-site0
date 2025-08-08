@@ -1,17 +1,123 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-
+/* Reset básico e definição de fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(182, 9, 9);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #610404, #b60909);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 main {
-    background-color: antiquewhite;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgb(14, 13, 13);
+    background-color: #f4f4f4;
+    width: 90%; /* Usa porcentagem para ser flexível */
+    max-width: 800px; /* Limita a largura em telas grandes */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem; /* Espaçamento consistente entre as seções */
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #b60909;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Estilo das seções de conteúdo */
+.content-section {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: #b60909;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Estilo de imagens e figuras */
+figure {
+    margin-top: 1rem;
+}
+
+img {
+    max-width: 100%; /* Garante que as imagens sejam responsivas */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* Estilo de links */
+a {
+    color: #b60909;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #610404;
+    text-decoration: underline;
+}
+
+/* Wrapper para vídeo responsivo (mantém a proporção) */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
