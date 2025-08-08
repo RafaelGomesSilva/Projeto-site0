@@ -1,39 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="4174f3b0-093e-4cf1-b2a4-c69152c1f835" name="Changes" comment="" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="30HswGBuWd6ETNFxxrvuYAtLiQG" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
-  }
-}]]></component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="4174f3b0-093e-4cf1-b2a4-c69152c1f835" name="Changes" comment="" />
-      <created>1753296069761</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1753296069761</updated>
-    </task>
-    <servers />
-  </component>
-</project>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Page | Balrog</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="Imagens/BalrogPortrait.webp" alt="Retrato do Balrog">
+            <h1>Site do Balrog</h1>
+            <p>O pugilista mais brutal de Street Fighter</p>
+        </header>
+
+        <section class="content-section">
+            <h2>Pré-luta</h2>
+            <p>Aqui vemos Balrog concentrado e estressado antes de entrar no ringue.</p>
+            <figure>
+                <img src="Imagens/1750932017_large.jpg" alt="Balrog nervoso antes da luta">
+                <figcaption>
+                    <a href="https://streetfighter.fandom.com/wiki/Balrog" target="_blank" rel="noopener noreferrer">
+                        Leia a biografia completa de Balrog
+                    </a>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="content-section">
+            <h2>Luta Épica</h2>
+            <p>Assista a um compilado de momentos incríveis do Balrog em ação.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/5u_bD2sp7ik?si=FuMuiygOlr_9Ziz_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Fúria Total!</h2>
+            <p>Em sua forma 2D clássica, liberando sua fúria. Não chegue perto!</p>
+            <figure>
+                <img src="Imagens/SSF2T_Balrog.gif" alt="Balrog em pixel art (GIF animado)">
+                <figcaption>Balrog em Super Street Fighter II Turbo</figcaption>
+            </figure>
+        </section>
+    </main>  
+</body>
+</html>
